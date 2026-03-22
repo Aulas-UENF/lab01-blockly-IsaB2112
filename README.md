@@ -1,9 +1,11 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tro2Z-6l)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23170889&assignment_repo_type=AssignmentRepo)
 # Lab 01: Lógica de Programação com Blockly 🐢
 
 Bem-vindo(a) à sua atividade prática de Lógica Computacional! Siga os passos abaixo para completar o desafio.
 
-**Nome do Aluno:** [Preencha seu nome aqui]
-**Matrícula:** [Preencha sua matrícula]
+**Nome do Aluno:** [ Isabelly Baastos Siqueira ]
+**Matrícula:** [ 202511000820]
 ---
 
 ## 🎯 Objetivo
@@ -43,14 +45,16 @@ Olhando para os blocos que você usou para resolver o jogo no nível 10, imagine
 *Suba o screenshot da sua solução final (onde aparece "Você resolveu este nível!") para a pasta **/imagens** deste repositório.*
 
 ## 3. Estratégia Utilizada
-*Explique com suas palavras como você resolveu o problema. Qual foi a lógica?*
-> Escreva aqui... Exemplo: Percebi que o padrão se repetia 3 vezes, então criei um bloco de função para desenhar a ponta da estrela e usei um loop...
+ A primeira coisa que fiz foi colocar a cor amarela logo em seguida um loop de 3 repetições contendo, primeiramente um loop de 5 repetições que consiste em mover-se em 50 de distancia e logo após virar um ângulo de 144 graus (este bloco forma as estrelas) , em seguida é preciso fazer um espaçamento logo levanta-se a caneta anda uma distancia de 250 e a abaixa rodando a mesma em 120 graus.
+  Para a segunda parte do nível foi preciso girar novamente 90 graus para a esquerda, levantar a caneta e decidi logo trocar a cor foi andando uma distancia de 100 e abaixei a caneta.
+  Esta terceira parte consiste na lua, o principal é um loop de 360 repetições que faz o seguinte: anda para frente 50, para trás 50 e roda para a direita 1 grau,, após isso é apenas um ajuste para fazer a parte preta.
+  Esta parte também consiste em um circulo, então foi feito outro loop de 360 repetições, que faz: anda para frente 50, vira pra a direita duas vezes em 90 graus anda para frente 50, vira para a esquerda dias vezes em 90 graus e gira 1 para a direita.
 
 ## 4. Desafio:
-**A)** Escreva aqui...
+**A)** O loop teria 6 repetições de 60 garus.
   
-**B)** Escreva aqui...
+**B)**  Seria 90 garus.
   
-**C)** Escreva aqui...
+**C)** Pensando em 360 graus, o angulo interno do hexagono é 120, ( eu desenhei no caderno ), fiz uma cruz no final da primeira aresta, do lado esquerdo estava sem nada então seria 360-180, e nessa cruz no lado direito foi apenas subtrair o angulo 180-120, sobrando 60. Para a B o raciocíneo foi mais simpels, apenas dividi 360 por 4.
 
 ---
